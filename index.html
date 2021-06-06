@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="styles.css">
+  <!--Google font-->
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
+  <!---->
+  <title>Simple Food | Ali Sattar</title>
+</head>
+
+<body>
+
+  <!--Top Header-->
+  <div class="header-shadow" id="top">
+    <div class="container">
+      <header>
+        <div class="container">
+          <div class="logo">Simple Food</div>
+
+          <ul class="menu">
+            <li><a href="#tips">Tips</a></li>
+            <li><a href="#tips">Lifestyle</a></li>
+            <li><a href="#recipes">Recipes</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#" style="color: rgb(21, 116, 211);">Landings</a></li>
+            <img src="/icons/menu.png" onclick="openMobileMenu()">
+          </ul>
+        </div>
+      </header>
+    </div>
+  </div>
+  <!---->
+
+  <!--Mobile Menu-->
+  <ul class="mobile-menu" id="mobile-menu">
+    <li><a href=" #tips">Tips</a></li>
+    <li><a href="#tips">Lifestyle</a></li>
+    <li><a href="#recipes">Recipes</a></li>
+    <li><a href="#about">About</a></li>
+    <li><a href="#" style="color: rgb(21, 116, 211);">Landings</a></li>
+    <li onclick="closeMobileMenu()"><a href="#" style="color: rgb(218, 78, 124);">Close Menu</a></li>
+  </ul>
+  <!---->
+
+  <!--Typography-->
+  <div class="typo-container">
+    <div class="flex-centered">
+      <div class="typo-inner">
+        <h2>A blog for people who like simple food</h2>
+        <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam
+          nonumy eirmod tempor invidunt ut labore et dolore</p>
+        <button>See popular recipes</button>
+      </div>
+    </div>
+  </div>
+  <!---->
+
+  <!--Tips and Recipe Grid-->
+  <div class="grid-container1" id="tips">
+    <div class="grid">
+      <div class="card">
+        <img src="/images/Capture1.JPG">
+        <p>TIPS</p>
+        <h4>How To Pick The Perfect Peach</h4>
+        <p class="description">Lorem ipsum dolor sit amet, consetetur
+          sadipscing elitr, sed diam nonumy eirmod
+          tempor invidunt ut labore et dolore (…)</p>
+      </div>
+      <div class="card">
+        <img src="/images/Capture2.JPG">
+        <p>LIFESTYLE</p>
+        <h4>Minimalist Kitchen</h4>
+        <p class="description">Lorem ipsum dolor sit amet, consetetur
+          sadipscing elitr, sed diam nonumy eirmod
+          tempor invidunt ut labore et dolore (…)</p>
+      </div>
+      <div class="card">
+        <img src="/images/Capture3.JPG">
+        <p>TIPS</p>
+        <h4>Organise Your Space</h4>
+        <p class="description">Lorem ipsum dolor sit amet, consetetur
+          sadipscing elitr, sed diam nonumy eirmod
+          tempor invidunt ut labore et dolore (…)</p>
+      </div>
+    </div>
+  </div>
+  <!---->
+
+  <!--Popular Recipes-->
+  <div class="grid-container2" id="recipes">
+    <div class="top">
+      <h3>Popular Receipes</h3>
+      <p><a href="#">See all</a> <b>></b></p>
+    </div>
+    <div class="caresoul">
+      <div class="card">
+        <img src="/images/Capture4.JPG">
+        <p>RECIPES — SOUP</p>
+        <h4>Butternut Squash Soup</h4>
+        <p class="description">45 min — 6 - 8 portions</p>
+      </div>
+      <div class="card">
+        <img src="/images/Capture5.JPG">
+        <p>RECIPES — DRINKS — BREAKFAST</p>
+        <h4>Berries Smoothie</h4>
+        <p class="description">15 min — 2 - 4 portions</p>
+      </div>
+      <div class="card">
+        <img src="/images/Capture6.JPG">
+        <p>RECIPES — ASIAN</p>
+        <h4>Vegetarian Dumplings</h4>
+        <p class="description">40 min — 4 - 6 portions</p>
+      </div>
+      <div class="card">
+        <img src="/images/Capture7.JPG">
+        <p>RECIPES — BREAKFAST</p>
+        <h4>Tropical Smoothie Bowl</h4>
+        <p class="description">25 min — 1 - 2 portions</p>
+      </div>
+      <div class="card">
+        <img src="/images/Capture8.JPG">
+        <p>RECIPES — ASIAN</p>
+        <h4>Spicy Noodles</h4>
+        <p class="description">30 min — 2 - 4 portions</p>
+      </div>
+      <div class="card">
+        <img src="/images/Capture9.JPG">
+        <p>RECIPES — BREAKFAST — SNACK</p>
+        <h4>Avocado Toast</h4>
+        <p class="description">10 min — 1 - 2 portions</p>
+      </div>
+    </div>
+  </div>
+  <!---->
+
+  <!--Subscribe Section-->
+  <div class="subscribe-container">
+    <div class="flex-centered">
+      <div class="inner">
+        <h2>Subscribe to the best food newsletter</h2>
+        <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam
+          nonumy eirmod tempor invidunt ut labore et dolore</p>
+      </div>
+      <button>Add my email to the list</button>
+    </div>
+  </div>
+  <!---->
+
+  <!--About me Section-->
+  <div class="aboutme-container" id="about">
+    <div class="flex-centered">
+      <img src="/images/laura.jpg">
+      <div class="description">
+        <h3>Hi, I’m Laura!</h3>
+        <p>CREATOR OF SIMPLE FOOD</p>
+        <p class="aboutme">Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod
+          tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At
+          vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren,
+          no sea takimata sanctus est. ed diam nonumy eirmod tempor invidunt ut labore
+          et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam</p>
+        <button>Learn more</button>
+      </div>
+    </div>
+  </div>
+  <!---->
+
+  <!--Top Arrow-->
+  <div class="top-arrow">
+    <div class="top-cover" onclick="window.location.href='#top'">
+      <img src="/icons/top.png" id="top-icon" onclick="window.location.href='#top'">
+    </div>
+  </div>
+  <!---->
+
+  <!--Footer-->
+  <div class="footer-container">
+    <div class="footer">
+      <p>Copyright @ Simple Food 2020</p>
+      <div class="social">
+        <a href="#"> Instagram /</a> <a href="#">Facebook / </a> <a href="#">Pinterest /</a> <a
+          href="https://github.com/abarani30/Simple-Food/tree/master" target="_blank">Github</a>
+      </div>
+    </div>
+  </div>
+  <!---->
+
+
+  <script src=" main.js">
+  </script>
+</body>
+
+</html>
