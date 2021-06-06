@@ -1,2 +1,2 @@
-# Simple-Food
-A simple UI for food recipes
+## Simple-Food
+A simple and responsive UI for food recipes
